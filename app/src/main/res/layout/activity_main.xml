@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_main"
+        tools:context=".MainActivity">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guideline1"
+            app:layout_constraintGuide_percent="0.22"
+            android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guideline2"
+            app:layout_constraintGuide_percent="0.72"
+            android:orientation="horizontal"/>
+
+
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinev1"
+            app:layout_constraintGuide_percent="0.08"
+            android:orientation="vertical"/>
+
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelinev2"
+            app:layout_constraintGuide_percent="0.92"
+            android:orientation="vertical"/>
+
+
+        <com.github.anastr.speedviewlib.DeluxeSpeedView
+            android:id="@+id/speedView"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_margin="12dp"
+            android:padding="40dp"
+
+            app:layout_constraintBottom_toTopOf="@id/guideline2"
+            app:layout_constraintStart_toStartOf="@id/guidelinev1"
+
+            app:layout_constraintEnd_toEndOf="@id/guidelinev2"
+            app:layout_constraintTop_toTopOf="@id/guideline1"
+
+            app:sv_backgroundCircleColor="@color/black"
+            app:sv_centerCircleColor="@color/white"
+
+            app:sv_cutPadding="0dp"
+            app:sv_speedometerWidth="3dp"
+
+
+            app:sv_endDegree="400"
+            app:sv_startDegree="140"
+            app:sv_indicator="NormalSmallIndicator"
+            app:sv_indicatorWidth="12dp"
+
+            app:sv_markColor="@color/white"
+            app:sv_markHeight="7dp"
+            app:sv_markStyle="BUTT"
+            app:sv_markWidth="1dp"
+            app:sv_marksNumber="140"
+            app:sv_marksPadding="1dp"
+            app:sv_maxSpeed="240"
+
+            app:sv_speedTextFormat="INTEGER"
+            app:sv_speedTextPosition="BOTTOM_CENTER"
+            app:sv_speedTextSize="0sp"
+            app:sv_speedTextColor="@color/black"
+            app:sv_speedometerColor="@android:color/transparent"
+            app:sv_speedometerMode="NORMAL"
+
+
+            app:sv_textColor="@color/marker_text_color"
+
+            app:sv_tickNumber="13"
+            app:sv_tickPadding="-30dp"
+            app:sv_tickRotation="false"
+            app:sv_tickTextFormat="INTEGER"
+            app:sv_unit="@string/lbl_unit_speed"
+
+            app:sv_textSize="14sp"
+            app:sv_unitSpeedInterval="8dp"
+            app:sv_unitTextSize="0sp"
+            app:sv_unitTextColor="@color/black"
+            app:sv_withIndicatorLight="true"
+            app:sv_withPointer="false"
+            />
+
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Alertado</string>
+    <string name="lbl_unit_speed">KMPH</string>
+    <string name="lbl_max_speed">Max Speed</string>
+    <string name="lbl_00">00</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lbl_submit">Submit</string>
+    <string name="status_network_online">Network available</string>
+    <string name="status_network_offline">Network offline</string>
+
+
+    <string name="shortcut_start">Start service</string>
+    <string name="shortcut_stop">Stop service</string>
+    <string name="shortcut_sos">Send SOS</string>
+    <string name="status_send_success">Send successfully</string>
+    <string name="status_send_fail">Send failed</string>
+    <string name="status_service_create">Service started</string>
+    <string name="status_service_destroy">Service stopped</string>
+    <string name="menu_status">Status</string>
+    <string name="menu_shortcuts">Add shortcuts</string>
+    <string name="menu_clear">Clear</string>
+    <string name="status_location_update">Location sent</string>
+    <string name="lbl_permissions_required">Permission Required</string>
+    <string name="msg_allow_permissions">Allow all permissions</string>
+    <string name="msg_allow_auto_start">Allow auto start permission in app permissions</string>
+    <string name="msg_loading">Loading..</string>
+    <string name="gps_not_found_title">GPS Not enabled</string>
+    <string name="yes">OK</string>
+    <string name="gps_not_found_message">Enable GPS to get accurate location.</string>
+    <string name="btn_start">Start</string>
+    <string name="msg_service_running">Service running</string>
+    <string name="msg_service_not_running">Service currently not running</string>
+    <string name="btn_stop">Stop</string>
+
+
+    <string name="google_roads_api_key">AIzaSyDwId8TUk6O0p8iiQH7Ts0wNO1ywAHbcHg</string>
+
+
+
+    <string name="navigation_speed_label_km">km/h</string>
+    <string name="navigation_speed_label_m">m/h</string>
+
+    <string name="navigation_speed_limit_default">N/A</string>
+
+    <string name="engine_init_error">Map engine initialization</string>
+
+</resources>

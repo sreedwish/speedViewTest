@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="speedometer_text">
+        <item name="font">@font/digital</item>
+
+    </style>
+
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">@color/purple_700</item>
+        <!-- Used for the title and text -->
+        <item name="android:windowTitleStyle">@style/MyTitleTextStyle</item>
+        <!-- Used for the background -->
+        <item name="android:background">#fff</item>
+
+    </style>
+
+    <style name="MyTitleTextStyle">
+        <item name="android:textColor">#0C0C0C</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+    </style>
+
+    <style name="PositiveButtonStyle" >
+        <item name="android:textColor">#00397F</item>
+    </style>
+
+</resources>
