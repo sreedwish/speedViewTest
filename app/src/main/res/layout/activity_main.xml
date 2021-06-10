@@ -43,12 +43,12 @@
             android:orientation="vertical"/>
 
 
-        <com.github.anastr.speedviewlib.DeluxeSpeedView
+        <com.tocinfotech.speedviewtest.DeluxeSpeedView2
             android:id="@+id/speedView"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_margin="12dp"
-            android:padding="40dp"
+            android:padding="60dp"
 
             app:layout_constraintBottom_toTopOf="@id/guideline2"
             app:layout_constraintStart_toStartOf="@id/guidelinev1"
@@ -57,16 +57,19 @@
             app:layout_constraintTop_toTopOf="@id/guideline1"
 
             app:sv_backgroundCircleColor="@color/black"
-            app:sv_centerCircleColor="@color/white"
+            app:sv_centerCircleColor="@color/marker_bg_color"
+            app:sv_centerCircleRadius="50dp"
 
             app:sv_cutPadding="0dp"
-            app:sv_speedometerWidth="3dp"
+            app:sv_speedometerWidth="1dp"
+
 
 
             app:sv_endDegree="400"
             app:sv_startDegree="140"
-            app:sv_indicator="NormalSmallIndicator"
-            app:sv_indicatorWidth="12dp"
+            app:sv_indicator="NeedleIndicator"
+            app:sv_indicatorWidth="20dp"
+
 
             app:sv_markColor="@color/white"
             app:sv_markHeight="7dp"
@@ -84,7 +87,7 @@
             app:sv_speedometerMode="NORMAL"
 
 
-            app:sv_textColor="@color/marker_text_color"
+            app:sv_textColor="@color/white"
 
             app:sv_tickNumber="13"
             app:sv_tickPadding="-30dp"
